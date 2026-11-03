@@ -1,0 +1,6 @@
+{
+    "account_type_savings":"SAVINGS",
+    "account_type_checking":"CHECKING",
+    "amount_index":0,
+    "account_open_message":"Congratulations, your account is now open."
+}

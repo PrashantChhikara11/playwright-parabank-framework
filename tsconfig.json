@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",           // modern JavaScript
+    "module": "preserve",         // matches "type": "commonjs" in your package.json
+    "moduleResolution": "bundler",   // find imports the Node way
+    "strict": true,               // the strict teacher: catches bugs early
+    "esModuleInterop": true,      // lets default imports like `import dotenv from 'dotenv'` work
+    "resolveJsonModule": true,    // lets you import RegisterUserData.json
+    "noEmit": true,               // only check types, don't create .js files
+    "types": ["node", "@playwright/test"]  // ⭐ the fix: put the dictionaries on the desk
+  },
+  "include": ["**/*.ts"]
+}

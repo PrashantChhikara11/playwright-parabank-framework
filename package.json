@@ -1,0 +1,28 @@
+{
+  "name": "manual_framework_parabank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_dev": "cross-env ENV_NAME=dev npx playwright test",
+    "test_qa": "cross-env ENV_NAME=qa npx playwright test",
+    "test_dev_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed",
+    "test_dev_fx_hd": "cross-env ENV_NAME=dev npx playwright test --project=firefox --headed",
+    "test_uat_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@UAT",
+    "test_ui_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@UI",
+    "test_sit_cr_hd": "cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --grep=@SIT",
+    "test_dev_cr_hd_lastFailed":"cross-env ENV_NAME=dev npx playwright test --project=chromium --headed --last-failed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  },
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.8"
+  }
+}

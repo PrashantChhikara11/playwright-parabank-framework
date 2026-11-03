@@ -1,0 +1,18 @@
+{
+
+    "firstName":"Test",
+    "lastName":"Test",
+    "address":"Test",
+    "city":"test",
+    "state":"Test",
+    "zipCode":"Test",
+    "phone":"890808787",
+    "ssn":"87287628682",
+    "username":"testPlaywright",
+    "password":"testPlaywright",
+    "confirm":"testPlaywright",
+    "welcomeMessage":"Welcome"
+
+
+
+}
